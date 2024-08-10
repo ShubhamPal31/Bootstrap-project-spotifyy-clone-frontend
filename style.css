@@ -10,11 +10,11 @@ body {
     
 }
 .sidebar{
-    
+    background-color: red;
 }
 .main-content {
-    
+    background-color: green;
 }
 .music-player {
-    
+    background-color: blue;
 }
