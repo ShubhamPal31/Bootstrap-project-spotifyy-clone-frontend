@@ -12,11 +12,13 @@ body {
 .sidebar{
     background-color: #121212;
     width: 350px;
+    border-radius: 1rem;
 }
 .main-content {
     background-color: #121212;
     flex: 1;
     overflow: auto;
+    border-radius: 1rem; /*1 rem = 16px for 100vh*/
 }
 .music-player {
     background-color: black;
@@ -24,4 +26,33 @@ body {
     bottom: 0;
     width: 100%;
     height: 85px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.nav {
+    background-color: #121212;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 112px;
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+}
+.nav-option {
+    line-height: 2.5rem;
+    opacity: 0.65;
+    padding: 0.25rem 0.75rem;
+}
+.nav-option:hover {
+    opacity: 1;
+}
+.nav-option i {
+    font-size: 1.25rem;
+}
+.nav-option a {
+    font-size: 1rem;
+    margin-left: 0.95rem;
 }
