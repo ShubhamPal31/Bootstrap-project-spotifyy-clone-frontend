@@ -111,6 +111,10 @@ a {
     width: fit-content;
     margin-top: 0.25rem;
 }
+.dark-badge {
+    color: white;
+    background-color: black;
+}
 .sticky-nav {
     position: sticky;
     top:0;
@@ -145,4 +149,9 @@ a {
 }
 .nav-item {
     margin-right: 2rem;
+}
+@media(max-width:1000px){
+    .hide {
+        display: none;
+    }
 }
