@@ -111,3 +111,38 @@ a {
     width: fit-content;
     margin-top: 0.25rem;
 }
+.sticky-nav {
+    position: sticky;
+    top:0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+.sticky-nav-icons {
+    display: flex;
+    margin-left: 0.75rem;
+}
+.icon-box {
+    height: 2rem;
+    width: 2rem;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5rem;
+}
+.icon-box img{
+    height: 1rem;
+    width: 1rem;
+}
+.sticky-nav-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-item {
+    margin-right: 2rem;
+}
